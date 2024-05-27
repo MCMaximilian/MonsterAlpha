@@ -8,6 +8,7 @@ public final class MonsterAlpha extends JavaPlugin {
 
     @Override
     public void onEnable() {
+
         getServer().getPluginManager().registerEvents( new PlayerEvent() , this);
     }
 
