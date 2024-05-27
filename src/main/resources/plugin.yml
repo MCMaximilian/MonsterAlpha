@@ -1,0 +1,4 @@
+name: MonsterAlpha
+version: '${version}'
+main: com.mcmaximilian.monsteralpha.MonsterAlpha
+api-version: '1.20'
