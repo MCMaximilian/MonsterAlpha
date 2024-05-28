@@ -1,4 +1,14 @@
+## Information of this plugin ##
 name: MonsterAlpha
 version: '${version}'
 main: com.mcmaximilian.monsteralpha.MonsterAlpha
 api-version: '1.20'
+author: MCMaximilian
+description: MonsterAlpha Plugin for 1.20.x in minecraft paper server.
+website: https://github.com/MCMaximilian/MonsterAlpha
+
+## Command List ##
+commands:
+  alpha:
+    description: Entire commands of MonsterAlpha Plugin
+    usage: /alpha <args>

@@ -55,7 +55,7 @@ public class PlayerEvent implements Listener {
         int yPos = player.getLocation().getBlockY();
         int zPos = player.getLocation().getBlockZ();
 
-        Component component = Component.text( playerName + "이(가)").color(NamedTextColor.GREEN);
+        Component component = Component.text( playerName + "이(가) ").color(NamedTextColor.GREEN);
         component = component.append( Component.text(playerWorldName + "에 " + xPos + " , " + yPos + " , " + zPos + " 에서").color(NamedTextColor.YELLOW ));
         component = component.append( Component.text(" 사망하였습니다").color(NamedTextColor.RED));
 
